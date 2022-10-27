@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Activity.UbahData">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="UBAH DAFTAR PESANAN"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/et_nama"
+            android:hint="Jenis "
+            android:textSize="20dp"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/et_jenis"
+            android:hint="Merk "
+            android:textSize="20dp"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/et_ukuran"
+            android:backgroundTint="@color/teal_700"
+            android:hint="Tipe "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:inputType="text"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/et_harga"
+            android:backgroundTint="@color/teal_700"
+            android:hint="Harga "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:inputType="text"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_ubah"
+        android:text="CHANGE"
+        android:backgroundTint="@color/teal_700"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

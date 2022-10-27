@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Hello Teoast"
+
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/tmblToast"
+        android:onClick="ToastClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/biru"
+        android:textSize="25dp"
+        android:text="TOAST" />
+
+    <TextView
+        android:id="@+id/kounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/kuning"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/biru"
+        android:textSize="250dp"
+        android:layout_weight="1"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tmblCount"
+        android:onClick="CountClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/biru"
+        android:textSize="25dp"
+        android:text="COUNT" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thoriq Hafidzuzumar A11.2019.11729"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="19dp"/>
+
+
+</LinearLayout>

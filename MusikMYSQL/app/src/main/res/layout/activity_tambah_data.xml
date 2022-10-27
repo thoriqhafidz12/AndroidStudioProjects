@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    tools:context=".Activity.TambahData">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="TAMBAH DAFTAR ALAT"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/et_jenis"
+            android:hint="Jenis "
+            android:textSize="20dp"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/et_merk"
+            android:hint="Merk "
+            android:textSize="20dp"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/et_tipe"
+            android:backgroundTint="@color/teal_700"
+            android:hint="Tipe "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:inputType="text"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/et_senar"
+            android:backgroundTint="@color/teal_700"
+            android:hint="Senar "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:inputType="text"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/et_harga"
+            android:backgroundTint="@color/teal_700"
+            android:hint="Harga "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:inputType="text"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_simpan"
+        android:text="SAVE"
+        android:backgroundTint="@color/teal_700"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

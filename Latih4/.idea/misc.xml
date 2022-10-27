@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/thori/AndroidStudioProjects/Latih4/app/src/main/res/drawable/ic_baseline_mic_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/thori/AndroidStudioProjects/Latih4/app/src/main/res/drawable/lingkaran.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/thori/AndroidStudioProjects/Latih4/app/src/main/res/layout/activity_aktifitas_telp.xml" value="0.1" />
+        <entry key="..\:/Users/thori/AndroidStudioProjects/Latih4/app/src/main/res/layout/activity_elektromix.xml" value="0.1796875" />
+        <entry key="..\:/Users/thori/AndroidStudioProjects/Latih4/app/src/main/res/layout/activity_list_lagu.xml" value="0.1796875" />
+        <entry key="..\:/Users/thori/AndroidStudioProjects/Latih4/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/thori/AndroidStudioProjects/Latih4/app/src/main/res/layout/activity_oldrock.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

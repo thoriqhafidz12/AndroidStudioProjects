@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".about">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="ABOUT US"
+            android:textStyle="bold"
+            android:paddingBottom="20dp"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="224dp"
+            android:src="@drawable/logo" />
+        <TextView
+        android:layout_width="300dp"
+        android:paddingTop="20dp"
+        android:text="CV.Multikarya adalah perusahaan percetakan yang melayani jasa percetakan brosur, banner, dan promosi lainnya. Didukung oleh tenaga kerja yang profesional dan alat-alat yang canggih."
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</ScrollView>

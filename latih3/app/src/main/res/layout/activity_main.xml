@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Kalkulator"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Inputkan Angka Pertama : "
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/angka1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Inputkan Angka Kedua     : "
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/angka2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Output Hasil                       : "
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/hasil"
+            android:textSize="20dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/jumlah"
+        android:onClick="penjumlahan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/oren"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/kurang"
+        android:onClick="pengurangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/oren"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/kali"
+        android:onClick="perkalian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/oren"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/bagi"
+        android:onClick="pembagian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/oren"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Thoriq Hafidzuzumar A11.2019.11729"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".AktifitasTelp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="ElectroMix"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="left"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="Levels - Avicii"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="Animals - Martin Garrix "
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="Feel So Close - Calvin Harris"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="Get Lucky - Daft Punk"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="Fire Stone - Kygo"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Thoriq Hafizuzumar A11.2019.11729"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/hijau"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
